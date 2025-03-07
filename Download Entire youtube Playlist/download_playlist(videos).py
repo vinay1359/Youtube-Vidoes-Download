@@ -27,6 +27,6 @@ def download_playlist(playlist_url, output_folder):
     subprocess.run(command)  # Execute yt-dlp command
 
 playlist_url = input("Enter YouTube Playlist URL: ")
-output_folder = r"C:\Users\bhara\Desktop\songs"
+output_folder = r"C:\Users\xxxx\Desktop\songs" #add your optput path
 
 download_playlist(playlist_url, output_folder)
