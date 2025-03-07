@@ -85,7 +85,7 @@ def download_audio_with_cover(playlist_url, output_folder):
 
 # Get the playlist URL and output folder path
 playlist_url = input("Enter YouTube Playlist URL: ")
-output_folder = r"C:\Users\xxxx\Desktop\songs"
+output_folder = r"C:\Users\xxxx\Desktop\songs" #add your optput path
 
 # Start downloading the playlist
 download_audio_with_cover(playlist_url, output_folder)
