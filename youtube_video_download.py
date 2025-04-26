@@ -1,6 +1,6 @@
-    import yt_dlp  # Import the yt-dlp library for downloading videos
+import yt_dlp  # Import the yt-dlp library for downloading videos
     
-    def download_video(url):
+def download_video(url):
         # Options for yt-dlp
         ydl_opts = {
             'format': 'bestvideo[height<=1080]+bestaudio/best',  # Download best video and audio up to 1080p
@@ -20,6 +20,6 @@
     
     # Sample video link to download
     #video_url = 'https://www.youtube.com/watch?v=dQw4w9WgXcQ'  # Replace with your desired video URL
-    video_url = input("Enter Your Url: ")
+video_url = input("Enter Your Url: ")
     # Call the download_video function with the sample video URL
-    download_video(video_url)
+download_video(video_url)
